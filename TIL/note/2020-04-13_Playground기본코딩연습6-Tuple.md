@@ -86,6 +86,9 @@
             (1, "zebra") < ("2", "apple")				//Error int형 1과 string형 "2"는 비교 불가
             ("blue", false) < ("purple", true)	//Error Bool값(ture,false)은 비교할 수가 없다
             ```
+            ```
+           
+            ```
       
       - **Tuple Matching**
       
