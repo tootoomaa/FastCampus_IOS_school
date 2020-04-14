@@ -31,7 +31,7 @@
 
 
 - 20.04
-  - [2020-04-14_homework(Array,Dictionary,Other)](https://github.com/tootoomaa/FastCampus_IOS_school/master/blob/homework/2020-04-14_homework.md)
-  - [2020-04-13_homework(ConditionalStatements,Loop)](https://github.com/tootoomaa/FastCampus_IOS_school/master/blob/homework/2020-04-13_homework.md)
-  - [2020-04-12_homework(Basic Syntax)](https://github.com/tootoomaa/FastCampus_IOS_school/master/blob/homework/2020-04-12_homework.md)
+  - [2020-04-14_homework(Array,Dictionary,Other)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-14_homework.md)
+  - [2020-04-13_homework(ConditionalStatements,Loop)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-13_homework.md)
+  - [2020-04-12_homework(Basic Syntax)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-12_homework.md)
 
