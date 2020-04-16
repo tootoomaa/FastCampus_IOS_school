@@ -4,6 +4,9 @@
 
 ## TIL 정리 
 
+- **20.04.16**
+  - [2020-04-16_Playground기본코딩연습13-Enumeration](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-16_Playground기본코딩연습13-enumeration.md)
+  - [2020-04-16_Playground기본코딩연습12-Optional](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-16_Playground기본코딩연습12-Optionals.md)
 
 - **20.04.14**
   - [2020-04-14_Playground기본코딩연습9-Array](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-14_Playground기본코딩연습9-Array.md)
@@ -31,6 +34,7 @@
 
 
 - 20.04
+  - [2020-04-16_homework(Optional, Enumeration)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-16_homework.md)
   - [2020-04-14_homework(Array,Dictionary,Other)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-14_homework.md)
   - [2020-04-13_homework(ConditionalStatements,Loop)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-13_homework.md)
   - [2020-04-12_homework(Basic Syntax)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-12_homework.md)
