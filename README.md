@@ -5,6 +5,8 @@
 ## TIL 정리 
 
 - **20.04 3st Week**
+  - [20-04-23_Xcode 기초 및 버튼 만들기](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-23_Xcode기초_버튼만들기.md)
+  - [20-04-23_The App Life Cycle](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-23_AppLifeCycle.md)]
   - [20-04-21_OOP(Object-Oriented-Programming) 4대 특징](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-21_OOP4대특징.md)
   - [20-04-21_AccessControl](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-21_접근제어.md)
   - [20-04-20_OOP(Object-Oriented-Programming) 개념 및 예제](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-20_OOP개념.md)
@@ -34,12 +36,11 @@
 
 
 
-
-
 ## homework 정리
 
 
 - 20.04
+  - [20-04-24_homework(알고리즘 및 앱 구현)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-24_homework.md)
   - [20-04-23_homework(알고리즘 및 앱 구현 기초)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-23_homework.md)
   - [20-04-21_homework(OOP 4대 특징)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-21_homework.md)
   - [20-04-20_homework(OOP)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-20_homework.md)
