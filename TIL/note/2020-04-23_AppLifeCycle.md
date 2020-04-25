@@ -76,18 +76,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 ### 참조 
 
 - **iOS 버전 관련 호환성 처리 방법**
-- IOS 13부터 SencDelegate.swift 가 생김
+    - IOS 13부터 SencDelegate.swift 가 생김
+      
+    - iOS 12까지는 아직 Appdelegate 에서 처리
+      
+    -  [ AppDelegate만 사용할 때 ]
   
-- iOS 12까지는 아직 Appdelegate 에서 처리
-  
--  [ AppDelegate만 사용할 때 ]
-  
-  1. SceneDelegate.swift 삭제
-  
-  2. AppDelegate.swift 파일에서 UISceneSession Lifecycle 부분 삭제
-  
-  3. AppDelegate.swift 파일에 **var** window: UIWindow? 프로퍼티 작성
-  
-  4. Info.plist에서 Application Scene Manifest 키 삭제
+        1. SceneDelegate.swift 삭제
+      
+        2. AppDelegate.swift 파일에서 UISceneSession Lifecycle 부분 삭제
+      
+        3. AppDelegate.swift 파일에 **var** window: UIWindow? 프로퍼티 작성
+      
+        4. Info.plist에서 Application Scene Manifest 키 삭제
 
 
