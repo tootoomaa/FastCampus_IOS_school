@@ -143,7 +143,7 @@ PlaygroundPage.current.liveView = MyViewController()
 
 - 아래 그림과 같이 ViewFrame 구현하기
 
-![200423_MakeFrame](/Users/kimkwangsoo/Document/dev/FastCampus_IOS_school/TIL/image/200423_MakeFrame.png)
+![200423_MakeFrame](../image/200423_MakeFrame.png)
 
 - 소스코드 
 
