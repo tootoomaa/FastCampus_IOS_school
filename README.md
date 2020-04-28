@@ -5,6 +5,7 @@
 ## TIL 정리 
 
 - **20.04 4st Week**
+  - [20-04-28 UITextFields, UIAlert](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-28_UITextFields&UIAlert.md)
   - [20-04-27 UIViewController](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-27_UIViewController.md)
 - **20.04 3st Week**
   - [20-04-24 UIGuide & ViewFrame](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-24_UIGuide&ViewFrame.md)
