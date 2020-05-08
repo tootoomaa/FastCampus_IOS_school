@@ -44,8 +44,11 @@
 ## homework 정리
 
 
-- 20.04
+- 20.05
+  - [20-05-08 homework(UserDefaults)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-08_homework.md)]
+  - [20-05-07 homework(Segue)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-07_homework.md)]
   - [20-05-04 homework(Type Check & Type Casting)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-04_homework.md)]
+- 20.04
   - [20-04-27 homework(앱 구현[UIViewController])](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-27_homework.md)
   - [20-04-24 homework(알고리즘 및 앱 구현[Switch, SegmentControl])](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-24_homework.md)
   - [20-04-23 homework(알고리즘 및 앱 구현 기초[Button])](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-23_homework.md)
