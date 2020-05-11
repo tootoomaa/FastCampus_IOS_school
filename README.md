@@ -4,7 +4,9 @@
 
 ## TIL 정리 
 
-- **20.05 1st Weel**
+- **20.05 2st Week**
+  - [20-05-11 Memory Manager(ARC), Struct](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-11_ARC&Strucr.md)
+- **20.05 1st Week**
   - [20-05-08_UINavigationController & UITabBarController & UserDefualts](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-08_UINavigationController&UITabBarController&UserDefualts.md)
   - [20-05-07 StoryBoard with Segue](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-07_StoryBoardwithSegue.md)
   - [20-05-04 Type Check & Type Casting](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-04_TypeCheck.md)
@@ -21,19 +23,16 @@
   - [20-04-20 OOP(Object-Oriented-Programming) 개념 및 예제](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-20_OOP개념.md)
 - **20.04 2st Week**
   - [20-04-17 Playground 기본코딩연습14-Closure](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-17_Playground기본코딩연습14-Closure.md)
-  
   - [20-04-16 Playground 기본코딩연습13-Enumeration](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-16_Playground기본코딩연습13-enumeration.md)
   - [20-04-16 Playground 기본코딩연습12-Optional](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-16_Playground기본코딩연습12-Optionals.md)
-  
   - [20-04-14 Playground 기본코딩연습9-Array](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-14_Playground기본코딩연습9-Array.md)
   - [20-04-14 Playground 기본코딩연습10-Dictionary](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-14_Playground기본코딩연습10-Dictionary.md)
   - [20-04-14 Playground 기본코딩연습11-Set](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-14_Playground기본코딩연습11-Set.md) 
-  
   - [20-04-13 Playground 기본코딩연습5-ContitionalStatements](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-13_Playground기본코딩연습5-ContitionalStatements.md)
   - [20-04-13 Playground 기본코딩연습6-Tuple](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-13_Playground기본코딩연습6-Tuple.md)
   - [20-04-13 Playground 기본코딩연습7-Loop(for,while)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-13_Playground기본코딩연습7-Loop(for,while).md)
   - [20-04-13 Playground 기본코딩연습8-ControlTransferStatement](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-13_Playground기본코딩연습8-ControlTransferStatement.md)
-- **20.04 1st Week**
+- **20.0/4 1st Week**
 	-  [20-04-10 Playground로 기본 코딩 연습 1 - Prayground](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-10_Playground기본코딩연습1-Prayground.md)
   -  [20-04-10 Playground로 기본 코딩 연습 2 - Literals & Types](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-10_Playground기본코딩연습2-Literals&Types.md)
   -  [20-04-10 Playground로 기본 코딩 연습 3 - Operation](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-10_Playground기본코딩연습3-Operation.md) 
@@ -46,9 +45,9 @@
 
 
 - 20.05
-  - [20-05-08 homework(UserDefaults)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-08_homework.md)]
-  - [20-05-07 homework(Segue)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-07_homework.md)]
-  - [20-05-04 homework(Type Check & Type Casting)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-04_homework.md)]
+  - [20-05-08 homework(UserDefaults)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-08_homework.md)
+  - [20-05-07 homework(Segue)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-07_homework.md)
+  - [20-05-04 homework(Type Check & Type Casting)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-04_homework.md)
 - 20.04
   - [20-04-27 homework(앱 구현[UIViewController])](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-27_homework.md)
   - [20-04-24 homework(알고리즘 및 앱 구현[Switch, SegmentControl])](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-04-24_homework.md)
