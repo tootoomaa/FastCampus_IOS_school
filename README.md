@@ -5,6 +5,7 @@
 ## TIL 정리 
 
 - **20.05 2st Week**
+  - [20-05-12 AppDelegate](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-12_AppDelegate.md)
   - [20-05-11 Memory Manager(ARC), Struct](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-11_ARC&Strucr.md)
 - **20.05 1st Week**
   - [20-05-08_UINavigationController & UITabBarController & UserDefualts](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-08_UINavigationController&UITabBarController&UserDefualts.md)
@@ -45,6 +46,7 @@
 
 
 - 20.05
+  - [20-05-11 homework(Struct)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-11_homework.md)
   - [20-05-08 homework(UserDefaults)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-08_homework.md)
   - [20-05-07 homework(Segue)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-07_homework.md)
   - [20-05-04 homework(Type Check & Type Casting)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-04_homework.md)
