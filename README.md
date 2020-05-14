@@ -33,7 +33,7 @@
   - [20-04-13 Playground 기본코딩연습6-Tuple](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-13_Playground기본코딩연습6-Tuple.md)
   - [20-04-13 Playground 기본코딩연습7-Loop(for,while)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-13_Playground기본코딩연습7-Loop(for,while).md)
   - [20-04-13 Playground 기본코딩연습8-ControlTransferStatement](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-13_Playground기본코딩연습8-ControlTransferStatement.md)
-- **20.0/4 1st Week**
+- **20.04 1st Week**
 	-  [20-04-10 Playground로 기본 코딩 연습 1 - Prayground](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-10_Playground기본코딩연습1-Prayground.md)
   -  [20-04-10 Playground로 기본 코딩 연습 2 - Literals & Types](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-10_Playground기본코딩연습2-Literals&Types.md)
   -  [20-04-10 Playground로 기본 코딩 연습 3 - Operation](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-04-10_Playground기본코딩연습3-Operation.md) 
@@ -46,7 +46,9 @@
 
 
 - 20.05
-  - [20-05-11 homework(Struct)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-11_homework.md)
+  - [20-05-13 homework( Login 화면 구현)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-13_homework.md)
+  - [20-05-12 homework( AppDelegate 연습 과제 )](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-12_homework.md)
+  - [20-05-11 homework(Struct 활용)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-11_homework.md)
   - [20-05-08 homework(UserDefaults)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-08_homework.md)
   - [20-05-07 homework(Segue)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-07_homework.md)
   - [20-05-04 homework(Type Check & Type Casting)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-04_homework.md)
