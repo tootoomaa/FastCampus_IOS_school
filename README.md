@@ -5,6 +5,7 @@
 ## TIL 정리 
 
 - **20.05 2st Week**
+  - [20-05-15 AutoLayout](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-15_AutoLayout.md)
   - [20-05-12 AppDelegate](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-12_AppDelegate.md)
   - [20-05-11 Memory Manager(ARC), Struct](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-11_ARC&Strucr.md)
 - **20.05 1st Week**
