@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="homework_AutoLayout_Practice1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YDm-O4-VTk">
+                                <rect key="frame" x="0.0" y="44" width="187.66666666666666" height="367"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jre-LZ-uEn">
+                                <rect key="frame" x="0.0" y="411" width="187.66666666666666" height="367"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Yk9-qB-ED5">
+                                <rect key="frame" x="187.66666666666663" y="44" width="187.33333333333337" height="367"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oFm-c5-FSE">
+                                <rect key="frame" x="187.66666666666663" y="411" width="187.33333333333337" height="367"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Jre-LZ-uEn" firstAttribute="top" secondItem="YDm-O4-VTk" secondAttribute="bottom" id="5Dv-dm-yCT"/>
+                            <constraint firstItem="oFm-c5-FSE" firstAttribute="leading" secondItem="Jre-LZ-uEn" secondAttribute="trailing" id="7Fs-ir-uP5"/>
+                            <constraint firstItem="YDm-O4-VTk" firstAttribute="height" secondItem="Jre-LZ-uEn" secondAttribute="height" id="8l8-h6-7NI"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="oFm-c5-FSE" secondAttribute="bottom" id="BBM-Gh-oxU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Jre-LZ-uEn" secondAttribute="bottom" id="Ciz-W7-4tW"/>
+                            <constraint firstItem="YDm-O4-VTk" firstAttribute="width" secondItem="Yk9-qB-ED5" secondAttribute="width" id="GZD-cT-FtB"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yk9-qB-ED5" secondAttribute="trailing" id="HNP-mm-Qy5"/>
+                            <constraint firstItem="Jre-LZ-uEn" firstAttribute="width" secondItem="YDm-O4-VTk" secondAttribute="width" id="JVE-p2-gfb"/>
+                            <constraint firstItem="Jre-LZ-uEn" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Jmh-wU-7FJ"/>
+                            <constraint firstItem="oFm-c5-FSE" firstAttribute="width" secondItem="Yk9-qB-ED5" secondAttribute="width" id="Pm1-QG-aVz"/>
+                            <constraint firstItem="Yk9-qB-ED5" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="cjL-vy-sMX"/>
+                            <constraint firstItem="YDm-O4-VTk" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="hov-38-nrn"/>
+                            <constraint firstItem="Jre-LZ-uEn" firstAttribute="width" secondItem="oFm-c5-FSE" secondAttribute="width" id="i6d-jm-9SB"/>
+                            <constraint firstItem="oFm-c5-FSE" firstAttribute="top" secondItem="Yk9-qB-ED5" secondAttribute="bottom" id="iw8-oH-sq6"/>
+                            <constraint firstItem="YDm-O4-VTk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="luy-ON-gpy"/>
+                            <constraint firstItem="Jre-LZ-uEn" firstAttribute="top" secondItem="YDm-O4-VTk" secondAttribute="bottom" id="sAk-3P-SCL"/>
+                            <constraint firstItem="Yk9-qB-ED5" firstAttribute="height" secondItem="oFm-c5-FSE" secondAttribute="height" id="sYE-ef-ynP"/>
+                            <constraint firstItem="Yk9-qB-ED5" firstAttribute="leading" secondItem="YDm-O4-VTk" secondAttribute="trailing" id="teV-sf-Z57"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="oFm-c5-FSE" secondAttribute="trailing" id="yKV-nT-5SK"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="137.4384236453202"/>
+        </scene>
+    </scenes>
+</document>
