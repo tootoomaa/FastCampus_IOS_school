@@ -6,6 +6,7 @@
 
 - **20.05 2st Week**
   - [20-05-15 AutoLayout](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-15_AutoLayout.md)
+  - [20-05-14 Login Page Build](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-14_LoginPage.md)
   - [20-05-12 AppDelegate](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-12_AppDelegate.md)
   - [20-05-11 Memory Manager(ARC), Struct](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-11_ARC&Strucr.md)
 - **20.05 1st Week**
@@ -47,6 +48,7 @@
 
 
 - 20.05
+  - [20-05-15 homework( AutoLayout Basic )](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-15_homework.md)
   - [20-05-13 homework( Login 화면 구현)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-13_homework.md)
   - [20-05-12 homework( AppDelegate 연습 과제 )](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-12_homework.md)
   - [20-05-11 homework(Struct 활용)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-11_homework.md)

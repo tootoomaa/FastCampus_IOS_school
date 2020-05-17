@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController wantsFullScreenLayout="YES" modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="homework_AutoLayout_Practice1_View" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0tV-LO-AR7">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlR-Lf-pLJ">
+                                <rect key="frame" x="0.0" y="0.0" width="187.66666666666666" height="406"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Skd-5f-QM3">
+                                <rect key="frame" x="0.0" y="406" width="187.66666666666666" height="406"/>
+                                <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cbl-9T-HeL">
+                                <rect key="frame" x="187.66666666666663" y="406" width="187.33333333333337" height="406"/>
+                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0Ek-md-mzm">
+                                <rect key="frame" x="187.66666666666663" y="0.0" width="187.33333333333337" height="406"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="0Ek-md-mzm" firstAttribute="top" secondItem="0tV-LO-AR7" secondAttribute="top" id="96K-GT-NOD"/>
+                            <constraint firstAttribute="trailing" secondItem="0Ek-md-mzm" secondAttribute="trailing" id="ABb-I4-lLA"/>
+                            <constraint firstItem="cbl-9T-HeL" firstAttribute="height" secondItem="0Ek-md-mzm" secondAttribute="height" id="DMH-wa-NqC"/>
+                            <constraint firstItem="cbl-9T-HeL" firstAttribute="leading" secondItem="Skd-5f-QM3" secondAttribute="trailing" id="K5F-3c-FW6"/>
+                            <constraint firstItem="hlR-Lf-pLJ" firstAttribute="leading" secondItem="0tV-LO-AR7" secondAttribute="leading" id="NG3-hD-Hmu"/>
+                            <constraint firstItem="Skd-5f-QM3" firstAttribute="top" secondItem="hlR-Lf-pLJ" secondAttribute="bottom" id="NYL-ZW-o9K"/>
+                            <constraint firstItem="Skd-5f-QM3" firstAttribute="leading" secondItem="0tV-LO-AR7" secondAttribute="leading" id="PgW-Og-Shp"/>
+                            <constraint firstAttribute="trailing" secondItem="cbl-9T-HeL" secondAttribute="trailing" id="QaN-qR-cHr"/>
+                            <constraint firstItem="0Ek-md-mzm" firstAttribute="width" secondItem="hlR-Lf-pLJ" secondAttribute="width" id="S4a-bb-s7N"/>
+                            <constraint firstItem="0Ek-md-mzm" firstAttribute="leading" secondItem="hlR-Lf-pLJ" secondAttribute="trailing" id="VbX-4V-1Wm"/>
+                            <constraint firstAttribute="bottom" secondItem="cbl-9T-HeL" secondAttribute="bottom" id="Wsu-fB-CRp"/>
+                            <constraint firstItem="cbl-9T-HeL" firstAttribute="width" secondItem="Skd-5f-QM3" secondAttribute="width" id="ahj-qq-96a"/>
+                            <constraint firstItem="cbl-9T-HeL" firstAttribute="leading" secondItem="Skd-5f-QM3" secondAttribute="trailing" id="fHl-Gp-xis"/>
+                            <constraint firstItem="cbl-9T-HeL" firstAttribute="top" secondItem="0Ek-md-mzm" secondAttribute="bottom" id="inO-PB-8Hv"/>
+                            <constraint firstItem="hlR-Lf-pLJ" firstAttribute="top" secondItem="0tV-LO-AR7" secondAttribute="top" id="kWi-Q0-nJQ"/>
+                            <constraint firstAttribute="bottom" secondItem="Skd-5f-QM3" secondAttribute="bottom" id="npi-Kf-ctc"/>
+                            <constraint firstItem="Skd-5f-QM3" firstAttribute="height" secondItem="hlR-Lf-pLJ" secondAttribute="height" id="pty-jj-7yz"/>
+                        </constraints>
+                    </view>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-23.199999999999999" y="195.07389162561577"/>
+        </scene>
+    </scenes>
+</document>
