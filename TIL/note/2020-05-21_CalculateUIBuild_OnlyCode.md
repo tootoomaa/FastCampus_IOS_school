@@ -1,0 +1,275 @@
+# Calculate UI Build only Code
+
+## 구현 내용
+
+###  구현 화면
+
+	1. 화면내 버튼을 4개씩 나눠 StackView로 구성
+ 	2. 각 스택뷰는 상위의 bottom을 topAnchor로 지정하고 leading -> view.leading , tailering -> view.tailering으로 적용
+ 	3. 버튼 사이의 간격은 10, 버튼 좌우상하는 10으로 적용
+
+<img src="../image/200520/200520_UI_Struct.png" alt="200520_UI_Struct" style="zoom:80%;" />
+
+### 소스코드
+
+- 소스코드만을 이용한 UI생성
+
+```swift
+import UIKit
+class CalculateMainView: UIViewController {    
+    //MARK: - Properties
+    // button 크기 조절
+    private struct ButtonSize {
+        static var width:CGFloat = 80
+    }
+    // 계산기에 표현되는 숫자 
+    private var displayString: String = "" {
+        didSet {
+            numberTextField.text = displayString
+        }
+    }
+    
+    let topCalculatorLabel: UILabel = {
+        var label = UILabel()
+        label.text = "Calculator"
+        label.textColor = .white
+        label.font = .systemFont(ofSize: 45)
+        return label
+    }()
+    let numberTextField: UITextField = {
+        var tf = UITextField()
+        tf.textColor = .white
+        tf.text = "0"
+        tf.font = .systemFont(ofSize: 50)
+        tf.textAlignment = .right
+        return tf
+    }()
+    
+    //MARK: - number View 1 Line
+    let numberButton1: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("1", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let numberButton2: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("2", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let numberButton3: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("3", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let operandButtonPlus: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .orange
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("+", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    
+    //MARK: - number View 2 Line
+    let numberButton4: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("4", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let numberButton5: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("5", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let numberButton6: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("6", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let operandButtonSub: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .orange
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("−", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    
+    //MARK: - number View 3 Line
+    let numberButton7: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("7", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let numberButton8: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("8", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let numberButton9: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("9", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let operandButtonMul: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .orange
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("×", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    
+    //MARK: - number Veiw 4 Line
+    let numberButton0: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .systemGray4
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("0", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let operandButtonAC: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .orange
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("AC", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let operandButtonEqu: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .orange
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("=", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    let operandButtonDiv: UIButton = {
+        var bt = UIButton()
+        bt.backgroundColor = .orange
+        bt.contentVerticalAlignment = .center
+        bt.setTitle("÷", for: .normal)
+        bt.titleLabel?.font = .boldSystemFont(ofSize: 35)
+        bt.layer.cornerRadius = ButtonSize.width / 2
+        return bt
+    }()
+    
+    //MARK: - Main View did Load()
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        //main View background Color
+        view.backgroundColor = .gray
+        
+        topCalculatorLabel.frame = CGRect(x: view.frame.width/2-100, y: 40, width: 200, height: 40)
+        view.addSubview(topCalculatorLabel)
+        
+        numberTextField.frame = CGRect(x: 20, y: 300, width: view.frame.size.width-40, height: 80)
+        view.addSubview(numberTextField)
+        
+        
+        //MARK: - Make Button StackView Layout
+        
+        //Define StackView
+        let firstLineSTView = UIStackView(arrangedSubviews: [numberButton1,numberButton2, numberButton3, operandButtonPlus])
+        let secondLineSTView = UIStackView(arrangedSubviews: [numberButton4,numberButton5, numberButton6, operandButtonSub])
+        let thirdLineSTView = UIStackView(arrangedSubviews: [numberButton7,numberButton8, numberButton9, operandButtonMul])
+        let fourthLineSTView = UIStackView(arrangedSubviews: [numberButton0,operandButtonAC, operandButtonEqu, operandButtonDiv])
+        
+        // Temp StackView Array
+        let stackViewArray = [firstLineSTView,secondLineSTView,thirdLineSTView,fourthLineSTView]
+        
+        var beforeView = UIStackView()
+        for i in stackViewArray { // stack뷰에 옵션 일괄 적용
+            i.translatesAutoresizingMaskIntoConstraints = false
+            i.axis = .horizontal
+            i.spacing = 10.0
+            i.distribution = .fillEqually
+            
+            view.addSubview(i)
+            
+            // autoLayout의 공통 부분 추출
+            NSLayoutConstraint.activate([
+                i.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 10),
+                i.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
+                i.heightAnchor.constraint(equalToConstant: ButtonSize.width)
+            ])
+            // 배열의 앞에있는 스택뷰의 bottomAnchor를 topAnchor로 설정하여 순서대로 적용
+            // 단 최소 스택뷰는 textfield로 적용함
+          if i == firstLineSTView {
+                i.topAnchor.constraint(equalTo: numberTextField.bottomAnchor, constant: 10).isActive = true
+            } else {
+                i.topAnchor.constraint(equalTo: beforeView.bottomAnchor, constant: 10).isActive = true
+            }
+            beforeView = i
+        }
+        
+        //Temp Buttom Array
+        let buttonArray = [numberButton1,numberButton2, numberButton3, operandButtonPlus,
+                           numberButton4,numberButton5, numberButton6, operandButtonSub,
+                           numberButton7,numberButton8, numberButton9, operandButtonMul,
+                           numberButton0,operandButtonAC, operandButtonEqu, operandButtonDiv]
+        // 모든 버튼액션은 하나의 함수로 적용
+        for i in buttonArray {
+            i.addTarget(self, action: #selector(tabButtonAction(_:)), for: .touchUpInside)
+        }
+    }
+    
+    @objc func tabButtonAction(_ sender:UIButton) {
+        guard let inputButtonText = sender.currentTitle else {return}
+        guard let currentDisplayString = numberTextField.text else {return}
+        displayString = handleInputButtonText(inputButtonText,currentDisplayString)
+    }
+}
+
+```
+
+
+
+### 소스코드 링크 
+
+:point_right: [링크](../SourceCode/200520_Calculator_Code)
+
