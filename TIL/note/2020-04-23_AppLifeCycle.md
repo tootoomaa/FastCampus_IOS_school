@@ -81,13 +81,43 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     - iOS 12까지는 아직 Appdelegate 에서 처리
       
     -  [ AppDelegate만 사용할 때 ]
-  
+    
         1. SceneDelegate.swift 삭제
-      
+        
         2. AppDelegate.swift 파일에서 UISceneSession Lifecycle 부분 삭제
-      
+        
         3. AppDelegate.swift 파일에 **var** window: UIWindow? 프로퍼티 작성
-      
+        
         4. Info.plist에서 Application Scene Manifest 키 삭제
 
+
+
+---
+
+## 추가 내용
+
+viewDidLoad() - 뷰가 처음 메모리에 올라올 때
+viewWillAppear() - 화면에 나타나기 전
+viewSafeAreaInsetsDidChange() - SafeAreaInset 변경 시점
+
+**//오토레이아웃 사용할 때만 호출**
+
+view - updateConstraint() - 뷰의 오토레이아웃
+updateViewConstraints() - 오토레이아웃에 변경이 발생했을 때
+
+ **// 항상 호출**
+
+viewWillLayoutSubview() - layoutSubview 호출 직전
+view - layoutSubview()  - 뷰에서의 서브뷰 배치
+viewDidLayoutSubview()  - layoutSubview 실행 후
+viewDidAppear() - 화면에 완전히 배치가 끝난 후
+
+**//layoutSubview 호출 조건**
+
+   - 뷰의 bounds가 변경되었을 때 (origin 또는 size가 변경되었을 때. frame과 무관)
+   - 뷰에 직접 추가된 자식 뷰의 bounds가 변경되었을 때
+   - 뷰에 직접 자식 뷰가 추가되거나 그 뷰가 제거될 때
+
+   ** 해당 조건이 발생하면 직접 layoutSubview()를 호출하는 대신 setNeedsLayout()을 호출함.
+   ** setNeedsLayout() - 새로 뷰를 배치해야 한다는 플래그 설정. layoutSubview()가 호출되면 다시 플래그 초기화
 
