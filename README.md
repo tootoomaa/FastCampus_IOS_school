@@ -5,7 +5,8 @@
 ## TIL 정리 
 
 - **20.05 4st Week**
-  - [20-05-25 UITableView](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-25_UITableView.md)
+  - [20-05-26 UITableView (CustomCell, Cell Style, TableView Editing)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-26_UITableView.md)
+  - [20-05-25 UITableView Basic](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-25_UITableView.md)
 - **20.05 3st Week**
   - [20-05-22 Build Calculator Final (Best Practice)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-22_CalculateUIBuild_Final.md)
   - [20-05-21 Build Calculator UI Second Day (Only Code)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-21_CalculateUIBuild_OnlyCode.md)
@@ -55,6 +56,7 @@
 
 
 - 20.05
+  - [20-05-25 homework(UITableView)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-25_homework.md)
   - [20-05-15 homework( AutoLayout Basic )](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-15_homework.md)
   - [20-05-13 homework( Login 화면 구현)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-13_homework.md)
   - [20-05-12 homework( AppDelegate 연습 과제 )](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-12_homework.md)
