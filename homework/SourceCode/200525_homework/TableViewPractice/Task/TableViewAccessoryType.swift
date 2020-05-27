@@ -73,11 +73,11 @@ extension TableViewAccessoryType: UITableViewDataSource {
         
         // selectedAnimalList에 저장된 순서에 row는 checkmark 지정
         if selectedAnimalList.contains(indexPath.row) {
+            print("Saved Cell")
             cell.accessoryType = UITableViewCell.AccessoryType.checkmark
         } else {
             cell.accessoryType = UITableViewCell.AccessoryType.none
         }
-        
         return cell
     }
 }
