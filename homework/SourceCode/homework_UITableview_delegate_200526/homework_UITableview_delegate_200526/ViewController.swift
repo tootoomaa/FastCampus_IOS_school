@@ -24,7 +24,6 @@ class ViewController: UIViewController {
     }
 }
 
-
 extension ViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return numberArray.count
@@ -43,5 +42,9 @@ extension ViewController: CustomCellDelegate {
     func tabPlusButtonDelegate(_ cell: CustomCell,buttonRow: Int) {
         numberArray[buttonRow] += 1
         cell.textLabel?.text = "\(numberArray[buttonRow])"
+    }
+    
+    func printFunctionForTest() {
+        print("printFunctionForTest")
     }
 }

@@ -31,7 +31,7 @@ class CustomCell: UITableViewCell {
     @objc func tabplusButton(_ sender:UIButton) {
         let row = sender.tag
         delegate?.tabPlusButtonDelegate(self, buttonRow: row)
-//        print(row)
+//        delegate?.printFunctionForTest()
     }
     
 }

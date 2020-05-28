@@ -135,6 +135,8 @@ extension TableViewMultipleSelection: UITableViewDelegate {
 //        }
     }
     
+    
+    
     func tableView(_ tableView: UITableView, willSelectRowAt indexPath: IndexPath) -> IndexPath? {
         if dataArray[indexPath.row] < 7 {
             return nil
