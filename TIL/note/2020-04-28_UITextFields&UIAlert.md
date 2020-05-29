@@ -129,7 +129,7 @@ class ViewController: UIViewController, UIAlertViewDelegate {
         alertButton.setTitle("Button", for: .normal)
         alertButton.sizeToFit()
         alertButton.frame = CGRect(x: 130, y: 500, width: 100, height: 100)
-        alertButton.addTarget(self, action: #selector(showAlert(_:)), for: .touchUpInside)
+                view.addSubview(tableView)
         view.addSubview(alertButton)
         
     }

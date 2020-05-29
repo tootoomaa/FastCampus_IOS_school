@@ -5,6 +5,8 @@
 ## TIL 정리 
 
 - **20.05 4st Week**
+  - [20-05-29 MidTest Second(실습)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-29_MidTest_Second.md)
+  - [20-05-28 MidTest First(이론)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-28_MidTest_first.md)
   - [20-05-26 UITableView (CustomCell, Cell Style, TableView Editing)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-26_UITableView.md)
   - [20-05-25 UITableView Basic](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-25_UITableView.md)
 - **20.05 3st Week**
