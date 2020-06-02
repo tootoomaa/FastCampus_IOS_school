@@ -4,6 +4,8 @@
 
 ## TIL 정리 
 
+- **20.06 1st Week**
+  - 
 - **20.05 4st Week**
   - [20-05-29 MidTest Second(실습)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-29_MidTest_Second.md)
   - [20-05-28 MidTest First(이론)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-28_MidTest_first.md)
@@ -57,6 +59,9 @@
 ## homework 정리
 
 
+- 2006
+
+  - [20-06-02 homework(UIContextMenuInteraction)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-06-02_homework.md)
 - 20.05
   - [20-05-27 homework(UITableView CustomCell, Delegate)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-27_homework.md)
   - [20-05-26 homework(UITableView CustomCell, Delegate)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-26_homework.md)

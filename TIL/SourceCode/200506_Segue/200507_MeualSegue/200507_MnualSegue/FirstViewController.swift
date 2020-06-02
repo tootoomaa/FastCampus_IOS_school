@@ -21,9 +21,6 @@ class FirstViewController: UIViewController {
 
     @IBAction func perforn(_ sender : UIButton) {
         
-        
-
-        
         guard let title = sender.currentTitle else {return}
         if title == "PlusTen" {
             number += 10
