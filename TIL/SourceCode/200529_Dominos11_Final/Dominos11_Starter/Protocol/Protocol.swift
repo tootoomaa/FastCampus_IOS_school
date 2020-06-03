@@ -10,7 +10,3 @@
 protocol CategoryTableViewDelegate {
     func tabMainButtonDelegate(_ cell:CategoryTableViewCell, row:Int)
 }
-
-protocol WishLisgViewControllerDelegate {
-    func tabPlusSubButtonDelegate(productName:String, orderNumber:Int)
-}

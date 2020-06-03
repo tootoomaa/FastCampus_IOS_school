@@ -13,7 +13,6 @@ class DetailViewController: UIViewController {
     //MARK: - Properties
     var getSelectCellImformation:UITableViewCell?
     var productData:ProductData?
-    var delegate: WishLisgViewControllerDelegate?
     var getProductPrice:Int?
     var getProductName:String = "" {
         didSet {
@@ -114,6 +113,10 @@ class DetailViewController: UIViewController {
             if orderCount > 0 {
                 orderCount -= 1
             }
+        }
+        guard orderCount != 0 else {
+            productData?.userOrderList.removeValue(forKey: getProductName)
+            return
         }
         productData?.userOrderList.updateValue(orderCount, forKey: getProductName)
     }
