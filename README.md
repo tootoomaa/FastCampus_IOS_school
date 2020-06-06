@@ -60,7 +60,7 @@
 
 
 - 2006
-
+ - [20-06-04 homework(Animation)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-06-04_homework.md)
   - [20-06-02 homework(UIContextMenuInteraction)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-06-02_homework.md)
 - 20.05
   - [20-05-27 homework(UITableView CustomCell, Delegate)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-05-27_homework.md)
