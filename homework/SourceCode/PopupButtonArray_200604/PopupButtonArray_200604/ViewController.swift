@@ -1,23 +1,11 @@
-# 2020-06-04 homework ( Amination )
+//
+//  ViewController.swift
+//  PopupButtonArray_200604
+//
+//  Created by 김광수 on 2020/06/04.
+//  Copyright © 2020 김광수. All rights reserved.
+//
 
-## [ 구현 목표 ]
-
-- 왼쪽 버튼 클릭 시 : 모든 버튼들이 동시에 펼처치고, 동시에 사라짐 
-- 오른쪽 버튼 클릭 시  :  모든 버튼들이 순차적으로 등장하고, 순차적으로 사라짐
-
-<video src="/Users/kimkwangsoo/Downloads/AnimationExample.mov"></video>
-
-## [ 과제 풀이] 
-
-### 구현 화면
-
-![200604_Animation_MainUI](/Users/kimkwangsoo/Document/dev/FastCampus_IOS_school/homework/image/200604_Animation_MainUI.gif)
-
-#### 소스코드
-
-- ViewCtroller.swift
-
-```swift
 import UIKit
 
 class ViewController: UIViewController {
@@ -202,9 +190,3 @@ class ViewController: UIViewController {
     sender.isSelected.toggle()
   }
 }
-
-```
-
-
-
-### 소스코드 링크 :point_right: [link](https://github.com/tootoomaa/FastCampus_IOS_school/tree/master/homework/SourceCode/PopupButtonArray_200604)
