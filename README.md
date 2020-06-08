@@ -5,6 +5,7 @@
 ## TIL 정리 
 
 - **20.06 1st Week**
+  - [20-06-04 UIAnimation](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-04_UIAnimation.md)
   - [20-06-02 ImagePicker](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-02_imagePicker.md)
 - **20.05 4st Week**
   - [20-05-29 MidTest Second(실습)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-29_MidTest_Second.md)
