@@ -4,6 +4,9 @@
 
 ## TIL 정리 
 
+- **20.06 2st Week** ( Vacation )
+  - [20-06-11 Singeton](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-11_Singleton.md)
+  - [20-06-10 Initializer](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-10_initalization.md)
 - **20.06 1st Week**
   - [20-06-04 UIAnimation](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-04_UIAnimation.md)
   - [20-06-02 ImagePicker](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-02_imagePicker.md)
