@@ -67,6 +67,7 @@
 
 - 20.06
 
+  - [20-06-16 homework( CollectionView )](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-06-16_homework.md)
   - [20-06-15 homework(Higher Order Function)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-06-15_homework.md)
    - [20-06-04 homework(Animation)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-06-04_homework.md)
     - [20-06-02 homework(UIContextMenuInteraction)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/homework/2020-06-02_homework.md)
