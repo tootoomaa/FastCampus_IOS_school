@@ -5,6 +5,7 @@
 ## TIL 정리 
 
 - **20.06 3st Week**
+  - [20-06-19 Build Dynamic AutoLayout 실습](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-19_DynamicAutolayout.md)
   - [20-06-17 Git Special class (managing Source code & co-work)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-17_GithubWithCowork.md)
   - [20-06-15 HigherOrderFunction](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-15_HigherOrderFunction)
 - **20.06 2st Week** ( Vacation )
