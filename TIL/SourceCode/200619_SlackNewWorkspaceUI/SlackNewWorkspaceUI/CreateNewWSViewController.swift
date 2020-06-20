@@ -9,6 +9,7 @@ import UIKit
 
 final class CreateNewWSViewController: UIViewController {
 
+  //MARK: - Properties
   let stringButtom:UIButton = {
     let bt = UIButton(type: .system)
     bt.setTitle("Create New Workspace", for: .normal)
@@ -18,11 +19,13 @@ final class CreateNewWSViewController: UIViewController {
     return bt
   }()
   
+  //MARK: - init
   override func viewDidLoad() {
     super.viewDidLoad()
     
     view.backgroundColor = .systemBackground
     
+    // 오토레아아웃 구성
     view.addSubview(stringButtom)
     stringButtom.translatesAutoresizingMaskIntoConstraints = false
     NSLayoutConstraint.activate([
@@ -31,6 +34,7 @@ final class CreateNewWSViewController: UIViewController {
     ])
   }
   
+  //MARK: - buttonAction
   @objc func tabStringButton() {
     
     let nameWSVC = NameWSViewController()

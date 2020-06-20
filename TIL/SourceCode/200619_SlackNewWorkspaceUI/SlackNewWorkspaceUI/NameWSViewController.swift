@@ -9,6 +9,7 @@ import UIKit
 
 final class NameWSViewController: UIViewController {
   
+  //MARK: - Properties
   let nameTextLabel: UILabel = {
     var label = UILabel()
     label.text = "Name your Workspace"
@@ -27,7 +28,7 @@ final class NameWSViewController: UIViewController {
   
   let activityIndicator = UIActivityIndicatorView()
   
-  
+  //MARK: - Configure UI
   fileprivate func configureNavigationBar() {
     // 왼쪽
     navigationItem.leftBarButtonItem = UIBarButtonItem.init(image: UIImage(systemName: "xmark"), style: .plain, target: self, action: #selector(tabXmarkItem))
@@ -85,24 +86,33 @@ final class NameWSViewController: UIViewController {
   
   @objc func tabNextItem() {
     //Next 버튼 엑션
+    userFinishAction()
+  }
+  
+  //사용자의 입력이 끝나고 키보드 return or Next 버튼 눌렀을때
+  func userFinishAction() {
+    // 현재 textField에 저장된 스트링의 크기 계산
     guard let string = nameTextFields.text else { return }
     let stringSize = (string as NSString).size()
-    print(stringSize.width)
     
+    // activityIndicator 글자 크기만큼 이동
     self.activityIndicator.center.x += self.activityIndicator.center.x + stringSize.width*2 + 10
+    // activityIndicator 에니메이션 실행
     self.activityIndicator.startAnimating()
     
     // 1초 뒤 activityIndicator 종료 후 다음 화면으로 이동
     let time = DispatchTime.now() + .seconds(1)
     DispatchQueue.main.asyncAfter(deadline: time) {
-      self.activityIndicator.stopAnimating()
+      self.activityIndicator.stopAnimating() // 에니메이션 중지
+      // 다음 화면으로 넘어감
       let urlWSVC = UrlWSViewController()
-      urlWSVC.userName = self.nameTextFields.text
+      urlWSVC.userName = self.nameTextFields.text // 다음 화면으로 사용자 이름 전달
       self.navigationController?.pushViewController(urlWSVC, animated: true)
     }
   }
 }
 
+//MARK: - TextFieldDelegate
 extension NameWSViewController: UITextFieldDelegate {
   
   func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
@@ -117,13 +127,13 @@ extension NameWSViewController: UITextFieldDelegate {
       })
       self.navigationItem.rightBarButtonItem?.isEnabled = true
     } else if newLength == 0 {
-      // nameTextLabel 사라짐
       
+      // nameTextLabel 사라지는 animation
       UIView.animate(withDuration: 0.5, animations: {
-        self.nameTextLabel.alpha = 0
-        self.nameTextLabel.center.y += 10
+        self.nameTextLabel.alpha = 0      // 사라지도록 지정
+        self.nameTextLabel.center.y += 10 // 위치 아래로 이동
       })
-      navigationItem.rightBarButtonItem?.isEnabled = false
+      navigationItem.rightBarButtonItem?.isEnabled = false // next버튼 비활성화
     }
     
     // 글자수 제한
@@ -134,7 +144,7 @@ extension NameWSViewController: UITextFieldDelegate {
   }
   
   func textFieldShouldReturn(_ textField: UITextField) -> Bool {
-    tabNextItem()
+    userFinishAction()
     return true
   }
   
