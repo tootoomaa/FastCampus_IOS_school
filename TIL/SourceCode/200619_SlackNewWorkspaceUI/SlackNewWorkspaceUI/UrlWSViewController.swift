@@ -122,6 +122,28 @@ final class UrlWSViewController: UIViewController {
   // Next버튼 눌렀을시 & 키보드 리턴 눌렀을시 처리 방법
   @objc func tabNextButtom() {
     userEndEditting()
+    shakeAnimation()
+  }
+  
+  private func shakeAnimation() {
+    UIView.animateKeyframes(withDuration: 0.25, delay: 0, animations: {
+      UIView.addKeyframe(withRelativeStartTime: 0, relativeDuration: 0.2, animations: {
+        self.urlTextField.center.x -= 8
+//        self.placeholderLabel.center.x -= 8
+      })
+      UIView.addKeyframe(withRelativeStartTime: 0.2, relativeDuration: 0.3, animations: {
+        self.urlTextField.center.x += 16
+//        self.placeholderLabel.center.x += 16
+      })
+      UIView.addKeyframe(withRelativeStartTime: 0.5, relativeDuration: 0.3, animations: {
+        self.urlTextField.center.x -= 16
+//        self.placeholderLabel.center.x -= 16
+      })
+      UIView.addKeyframe(withRelativeStartTime: 0.8, relativeDuration: 0.2, animations: {
+        self.urlTextField.center.x += 8
+//        self.placeholderLabel.center.x += 8
+      })
+    })
   }
   
   override func viewWillAppear(_ animated: Bool) {
