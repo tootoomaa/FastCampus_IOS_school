@@ -5,9 +5,11 @@
 ## TIL 정리 
 
 - **20.06 5st Week**
+  - [20-07-02 GCD (Global Central Dispatch)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-02_GCD.md)
   - [20-06-30 Algorithm (Sort, 자료 검색 알고리즘)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-30_Algorithm.md)
   - [20-06-29 Data Structure (Linked List)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-29_DataStructure_LinkedList.md)
 - **20.06 4st Week**
+  - [20-06-24 CollectionView 특강 ( tableView + collecionView)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-24_CollectionView특강.md)
   - [20-06-23 CoreLoaction 실습](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-23_CoreLocation_practice.md)
   - [20-06-23 CoreLoaction 이론](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-23_CoreLocation_theory.md)
   - [20-06-22 Build Dynamic AutoLayout 풀이](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-22_DynamicLayout_Final.md)
