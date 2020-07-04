@@ -5,21 +5,23 @@
 ## TIL 정리 
 
 - **20.06 5st Week**
-  - [20-07-03 3차 테스트 오후( 실습 )](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-03_3차테스트_오후.md)
-  - [20-07-03 3차 테스트 오전(이론, 문제풀이)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-03_3차테스트_오전.md)
+  - [20-07-03 3th Test 2st Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-03_3차테스트_오후.md)
+  - [20-07-03 3th Test 1st Theory](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-03_3차테스트_오전.md)
   - [20-07-02 GCD (Global Central Dispatch)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-02_GCD.md)
   - [20-06-30 Algorithm (Sort, 자료 검색 알고리즘)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-30_Algorithm.md)
   - [20-06-29 Data Structure (Linked List)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-29_DataStructure_LinkedList.md)
 - **20.06 4st Week**
-  - [20-06-24 CollectionView 특강 ( tableView + collecionView)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-24_CollectionView특강.md)
-  - [20-06-23 CoreLoaction 실습](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-23_CoreLocation_practice.md)
-  - [20-06-23 CoreLoaction 이론](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-23_CoreLocation_theory.md)
-  - [20-06-22 Build Dynamic AutoLayout 풀이](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-22_DynamicLayout_Final.md)
+  - [20-06-25 UIGuestureRecognizer Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-25_UIGuestureRecognizer_Practice.md)
+  - [20-06-25 UIGuestureRecognizer Theory](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-25_UIGuestureRecognizer_Theory.md)
+  - [20-06-24 CollectionView Special Class ( tableView + collecionView )](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-24_CollectionView특강.md)
+  - [20-06-23 CoreLoaction Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-23_CoreLocation_practice.md)
+  - [20-06-23 CoreLoaction Theory](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-23_CoreLocation_theory.md)
+  - [20-06-22 Build Dynamic AutoLayout Review](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-22_DynamicLayout_Final.md)
 - **20.06 3st Week**
-  - [20-06-19 Build Dynamic AutoLayout 실습](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-19_DynamicAutolayout.md)
+  - [20-06-19 Build Dynamic AutoLayout Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-19_DynamicAutolayout.md)
   - [20-06-17 Git Special class (managing Source code & co-work)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-17_GithubWithCowork.md)
-  - [20-06-16 CollectionView 실습](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-16_CollecionView_Practice.md)
-  - [20-06-16 CollectionView 이론](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-16_CollecionView.md)
+  - [20-06-16 CollectionView Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-16_CollecionView_Practice.md)
+  - [20-06-16 CollectionView Theory](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-16_CollecionView.md)
   - [20-06-15 HigherOrderFunction](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-15_HigherOrderFunction)
 - **20.06 2st Week** ( Vacation )
   - [20-06-11 Singeton](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-11_Singleton.md)
@@ -28,8 +30,8 @@
   - [20-06-04 UIAnimation](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-04_UIAnimation.md)
   - [20-06-02 ImagePicker](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-06-02_imagePicker.md)
 - **20.05 4st Week**
-  - [20-05-29 MidTest Second(실습)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-29_MidTest_Second.md)
-  - [20-05-28 MidTest First(이론)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-28_MidTest_first.md)
+  - [20-05-29 MidTest Second Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-29_MidTest_Second.md)
+  - [20-05-28 MidTest First Theory](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-28_MidTest_first.md)
   - [20-05-26 UITableView (CustomCell, Cell Style, TableView Editing)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-26_UITableView.md)
   - [20-05-25 UITableView Basic](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-25_UITableView.md)
 - **20.05 3st Week**
