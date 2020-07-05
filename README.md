@@ -5,6 +5,8 @@
 ## TIL 정리 
 
 - **20.06 5st Week**
+  - [20-07-05 Network](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-05_Network.md)
+  - [20-07-04 ErrorHandling](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-04_ErrorHandling_Theory.md)
   - [20-07-03 3th Test 2st Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-03_3차테스트_오후.md)
   - [20-07-03 3th Test 1st Theory](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-03_3차테스트_오전.md)
   - [20-07-02 GCD (Global Central Dispatch)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-02_GCD.md)
