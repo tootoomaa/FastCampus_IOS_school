@@ -5,6 +5,7 @@
 ## TIL 정리 
 
 - **20.07 1st Week**
+  - [20-07-07 Codable](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-07_Codable)
   - [20-07-06 JSON](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-06_JSON)
   - [20-07-06 Network Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-06_Network_Practice.md)
   - [20-07-05 Network Theory](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-05_Network_Theory.md)
