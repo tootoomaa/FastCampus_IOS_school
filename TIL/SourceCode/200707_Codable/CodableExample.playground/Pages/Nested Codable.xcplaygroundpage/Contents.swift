@@ -28,6 +28,7 @@ struct Astronauts: Decodable {
   struct Person: Decodable {
     let name: String
   }
+  
 }
 
 do {

@@ -27,9 +27,18 @@ let jsonFruits = """
 """.data(using: .utf8)!
 
 
-struct Fruit: Decodable{
+struct Fruit {
   let name: String?
   let cost: Int?
+  
+//  enum CodingKeys: String, CodingKey {
+//    case name
+//    case cost
+//  }
+}
+
+extension Fruit: Decodable {
+  
 }
 
 if let fruit = try? JSONDecoder().decode([Fruit].self, from: jsonFruits) {
@@ -55,9 +64,9 @@ let jsonReport = """
 
 struct Report: Decodable {
   var name: String
-  var reportId: Int
-  var readCount: Int
-  var reportDate: Date
+  var reportId: String
+  var readCount: String
+  var reportDate: String
   
   enum CodingKeys: String, CodingKey {
     case name
@@ -65,8 +74,22 @@ struct Report: Decodable {
     case readCount = "read_count"
     case reportDate = "report_date"
   }
+  
+  init(from decoder: Decoder) throws {
+    let container = try decoder.container(keyedBy: CodingKeys.self)
+    name = try container.decode(String.self, forKey: .name)
+    reportId = try container.decode(String.self, forKey: .reportId)
+    readCount = try container.decode(String.self, forKey: .readCount)
+    reportDate = try container.decode(String.self, forKey: .reportDate)
+  }
 }
 
+
+if let data = try? decoder.decode(Report.self, from: jsonReport) {
+  print(data)
+} else {
+  print("Fail")
+}
 
 
 /*
@@ -88,12 +111,47 @@ let jsonMovie = """
 ]
 """.data(using: .utf8)!
 
-struct Person {
-  struct Movie {
+struct Person: Decodable {
+  
+  var name: String
+  var title: String
+  var releaseYear: Int
+  
+  enum CodingKeys: String, CodingKey {
+    case name
+    case favoriteMovies = "favorite_movies"
+  }
+  
+  struct Movie: Codable {
+    var title: String
+    var releaseYear: Int
+  }
+  
+  enum AdditionalInfoKeys: String, CodingKey {
+    case title
+    case releaseYear = "release_year"
+  }
+
+  init(from decoder: Decoder) throws {
+    let nukeyedContainer = try decoder.unkeyedContainer()
     
+    let keyedContainer = try decoder.container(keyedBy: CodingKeys.self)
+    name = try keyedContainer.decode(String.self, forKey: .name)
+    
+    let additionalInfo = try keyedContainer.nestedContainer(
+      keyedBy: AdditionalInfoKeys.self,
+      forKey: .favoriteMovies
+    )
+    title = try additionalInfo.decode(String.self, forKey: .title)
+    releaseYear = try additionalInfo.decode(Int.self, forKey: .releaseYear)
   }
 }
 
+if let data = try? decoder.decode([Person].self, from: jsonMovie) {
+  print(data)
+} else {
+  print("error")
+}
 
 
 
