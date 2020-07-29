@@ -5,7 +5,12 @@
 ## TIL 정리 
 
 - **20.07 4st Week**
+  - [2020-07-29 3차 해커톤 리뷰](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-29_3thHackertonReview)
   - [2020-07-28 Debugging](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-28_Debugging)
+- **20.07 3st Week**
+  - [20-07-21 ~ 24 날씨 정보 앱 실습 구현 결과](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/Practice/note/2020-07-13_CafeSpot_Goal)
+  - [20-07-21 날씨 정보 앱 실습 구현 목표](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/Practice/note/2020-07-10_CafeSpot_Goal)
+  - [20-07-20 카페 찾기 앱 완성]()
 - **20.07 2st Week**
   - [20-07-16 ~ 17 3차 해커톤]()
   - [20-07-10 ~ 14 카페 찾기 앱 실습 구현 결과](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/Practice/note/2020-07-13_CafeSpot_Goal)
