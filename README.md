@@ -5,6 +5,8 @@
 ## TIL 정리 
 
 - **20.07 4st Week**
+  - [2020-08-02 Custom Logging](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-08-02_CustomLogging.md)
+  - [2020-08-01 Closure Second](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-08-01_Closure.md)
   - [2020-07-29 3차 해커톤 리뷰](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-29_3thHackertonReview.md)
   - [2020-07-28 Debugging](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-07-28_Debugging.md)
 - **20.07 3st Week**

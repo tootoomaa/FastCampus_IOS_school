@@ -41,7 +41,6 @@
         locationManager.desiredAccuracy = kCLLocationAccuracyBest // 가장 정확하게 측정
         locationManager.distanceFilter = 1000.0 // 1km
         locationManager.startUpdatingLocation()
-        fetchWeatherData()
       }
     
       // 사용자가 최초로 권한은 수정한 뒤 해당 권한을 통해 최초 날씨 데이터 불러옴
