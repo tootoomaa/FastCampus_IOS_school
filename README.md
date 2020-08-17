@@ -51,7 +51,7 @@
 - **20.05 4st Week**
   - [20-05-29 MidTest Second Practice](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-29_MidTest_Second.md)
   - [20-05-28 MidTest First Theory](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-28_MidTest_first.md)
-  - [20-05-26 UITableView (CustomCell, Cell Style, TableView Editing)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-26_UITableView.md)
+  - [20-05-26 UITableView (CustomCell, Cell Style, TableView Editing)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-26_UITableViewSecond.md)
   - [20-05-25 UITableView Basic](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-25_UITableView.md)
 - **20.05 3st Week**
   - [20-05-22 Build Calculator Final (Best Practice)](https://github.com/tootoomaa/FastCampus_IOS_school/blob/master/TIL/note/2020-05-22_CalculateUIBuild_Final.md)
